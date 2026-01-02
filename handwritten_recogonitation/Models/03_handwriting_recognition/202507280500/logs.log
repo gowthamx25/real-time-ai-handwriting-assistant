@@ -1,0 +1,22 @@
+2025-07-28 05:00:32,221 - tensorflow - WARNING - From C:\Users\GOWTHAM S\AppData\Local\Programs\Python\Python310\lib\site-packages\tf2onnx\tf_loader.py:72: The name tf.train.import_meta_graph is deprecated. Please use tf.compat.v1.train.import_meta_graph instead.
+
+2025-07-28 05:00:33,946 - tensorflow - WARNING - From C:\Users\GOWTHAM S\AppData\Local\Programs\Python\Python310\lib\site-packages\keras\src\legacy\backend.py:666: The name tf.nn.ctc_loss is deprecated. Please use tf.compat.v1.nn.ctc_loss instead.
+
+2025-07-28 05:14:39,461 - ImageReader - WARNING - Image Datasets\IAM_Words\words\r06\r06-022\r06-022-03-05.png could not be read, returning None.
+2025-07-28 05:14:39,462 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-07-28 05:14:39,463 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-07-28 05:30:27,882 - ImageReader - WARNING - Image Datasets\IAM_Words\words\a01\a01-117\a01-117-05-02.png could not be read, returning None.
+2025-07-28 05:30:27,882 - DataProvider - WARNING - Data or annotation is None, marking for removal on epoch end.
+2025-07-28 05:30:27,882 - DataProvider - WARNING - Data or annotation is None, skipping.
+2025-07-28 05:35:59,195 - DataProvider - WARNING - Removing ['Datasets\\IAM_Words\\words\\r06\\r06-022\\r06-022-03-05.png', 'more'] from dataset.
+2025-07-28 05:35:59,215 - DataProvider - WARNING - Removing ['Datasets\\IAM_Words\\words\\a01\\a01-117\\a01-117-05-02.png', 'Powell'] from dataset.
+2025-07-28 05:38:14,023 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-07-28 05:38:14,262 - root - INFO - Epoch 0; CER: 0.817928671836853; WER: 0.9144779443740845; loss: 12.545844078063965; val_CER: 0.7995762825012207; val_WER: 0.9061314463615417; val_loss: 9.81960678100586
+2025-07-28 06:01:01,125 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-07-28 06:01:01,405 - root - INFO - Epoch 1; CER: 0.6802577376365662; WER: 0.8415164947509766; loss: 8.810894012451172; val_CER: 0.6673053503036499; val_WER: 0.8339778780937195; val_loss: 6.728831768035889
+2025-07-28 06:25:26,235 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-07-28 06:25:26,410 - root - INFO - Epoch 2; CER: 0.5848506689071655; WER: 0.786186695098877; loss: 6.667691707611084; val_CER: 0.5748175978660583; val_WER: 0.7789723873138428; val_loss: 4.630359172821045
+2025-07-28 06:47:43,177 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-07-28 06:47:43,325 - root - INFO - Epoch 3; CER: 0.515271782875061; WER: 0.7394821643829346; loss: 5.307713508605957; val_CER: 0.508491039276123; val_WER: 0.7339379191398621; val_loss: 3.9321744441986084
+2025-07-28 07:08:25,438 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-07-28 07:08:25,567 - root - INFO - Epoch 4; CER: 0.46503153443336487; WER: 0.701545000076294; loss: 4.581517696380615; val_CER: 0.46009889245033264; val_WER: 0.6971115469932556; val_loss: 3.410006046295166

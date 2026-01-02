@@ -1,0 +1,9 @@
+batch_size: 16
+height: 32
+learning_rate: 0.0005
+max_text_length: 21
+model_path: Models/03_handwriting_recognition\202507272238
+train_epochs: 1000
+train_workers: 20
+vocab: 25X*Rt0E#T+lKacGMLr!pPF.)dUYfmzw7Sui9Nq/&-'CJjAgyOk?hB4n8xDoQW6sb":;vIZH3(V,e1
+width: 128
