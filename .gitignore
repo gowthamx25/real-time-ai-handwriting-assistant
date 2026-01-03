@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Datasets
+handwritten_recogonitation/Datasets/
+
+# Large files
+*.tgz
+*.zip
+*.h5
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
