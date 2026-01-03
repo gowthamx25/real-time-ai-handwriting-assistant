@@ -56,17 +56,29 @@ Text-to-Speech (pyttsx3)
 ## 📂 Project Structure
 
 SPELL_CORRECTOR_LLM/
+
 │
+
 ├── handwritten_recogonitation/
+
 │ ├── Models/
+
 │ ├── configs.py
+
 │ ├── model.py
+
 │ ├── inferenceModel.py
+
 │ └── train.py
+
 │
+
 ├── corrector.py # Real-time OCR + correction + voice
+
 ├── README.md
+
 ├── .gitignore
+
 └── .venv/ # (ignored)
 
 
@@ -90,22 +102,25 @@ Place datasets locally if you plan to retrain models.
 ### 1️⃣ Clone the repository
 git clone https://github.com/gowthamx25/real-time-ai-handwriting-assistant.git
 cd real-time-ai-handwriting-assistant
-2️⃣ Create virtual environment
+
+### 2️⃣ Create virtual environment
 python -m venv .venv
 source .venv/bin/activate   # Linux / Mac
 .venv\Scripts\activate      # Windows
-3️⃣ Install dependencies
+
+### 3️⃣ Install dependencies
 pip install torch torchvision torchaudio
 pip install opencv-python pyttsx3 pillow numpy
 pip install transformers pyspellchecker
-▶️ Run the Application
+
+### ▶️ Run the Application
 python corrector.py
 Controls
 q → Quit application
 
 Speak handwritten text automatically when motion is detected
 
-🧠 Key Highlights
+### 🧠 Key Highlights
 Uses Transformer-based OCR, not traditional Tesseract
 
 Motion-based triggering reduces unnecessary computation
@@ -114,7 +129,7 @@ Modular design — easy to extend with LLMs or cloud APIs
 
 Fully offline pipeline (no API cost)
 
-🔮 Future Improvements
+### 🔮 Future Improvements
 Multilingual handwriting recognition
 
 Grammar correction using LLMs
@@ -125,7 +140,7 @@ Web-based dashboard
 
 Sentence-level language correction
 
-👨‍💻 Author
+### 👨‍💻 Author
 Gowtham S
 AI & Data Science Student | Aspiring MLOps Engineer
 
