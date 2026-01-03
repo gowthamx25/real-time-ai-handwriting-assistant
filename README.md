@@ -101,21 +101,29 @@ Place datasets locally if you plan to retrain models.
 
 ### 1️⃣ Clone the repository
 git clone https://github.com/gowthamx25/real-time-ai-handwriting-assistant.git
+
 cd real-time-ai-handwriting-assistant
 
 ### 2️⃣ Create virtual environment
 python -m venv .venv
+
 source .venv/bin/activate   # Linux / Mac
+
 .venv\Scripts\activate      # Windows
 
 ### 3️⃣ Install dependencies
 pip install torch torchvision torchaudio
+
 pip install opencv-python pyttsx3 pillow numpy
+
 pip install transformers pyspellchecker
 
 ### ▶️ Run the Application
+
 python corrector.py
+
 Controls
+
 q → Quit application
 
 Speak handwritten text automatically when motion is detected
