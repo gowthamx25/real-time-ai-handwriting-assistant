@@ -20,13 +20,21 @@ This project combines **computer vision**, **transformer-based OCR**, **NLP spel
 ## 🏗️ System Architecture
 
 Camera Feed
+
 ↓
+
 Motion Detection (OpenCV)
+
 ↓
+
 Handwritten OCR (TrOCR)
+
 ↓
+
 Spell Correction (pyspellchecker)
+
 ↓
+
 Text-to-Speech (pyttsx3)
 
 ---
